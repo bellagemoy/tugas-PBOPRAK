@@ -30,8 +30,8 @@ class Mahasiswa2(Mahasiswa):
                 ''')
 
 # memanggil class
-mhs1 = Mahasiswa("Esa Age", 2000)
-mhs2 = Mahasiswa2("Danu Dwik", 6000)
+mhs1 = Mahasiswa("BELLA TRIANA", 2000)
+mhs2 = Mahasiswa2("AGNESTA", 6000)
 
 mhs1.tampilMhs()
 mhs2.tampilMhs()

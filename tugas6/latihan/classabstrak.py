@@ -1,21 +1,18 @@
 from abc import ABC, abstractmethod
-
-class bentuk(ABC):
+class Bentuk(ABC):
     @abstractmethod
     def luas(self):
         return self.__sisi * self.__sisi
-    
+
     @abstractmethod
     def keliling(self):
         return 4 * self.__sisi
 
-class Persegi(bentuk):
-    def __init__(self, sisi):
-        self.sisi = sisi
-
+class Persegi(Bentuk):
+    def _init_(self, sisi):
+        self.__sisi = sisi
     def luas(self):
         return self.__sisi * self.__sisi
-    
     def keliling(self):
         return 4 * self.__sisi
 
