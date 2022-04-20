@@ -33,7 +33,7 @@ class HardDiskSATA(ComputerPart):
         self.kapasitas = kapasitas
         self.rpm = rpm
 
-p = Processor('Intel', 'Core i9', 4000000, 4,'4 Ghz')
+p = Processor('Intel', 'Core i7', 18000000, 4,'4 GHZ')
 m = RandomAccessMemory('Sandisk', 'DD4 4 SECEPAT KILAT', 800000,'32 GB')
 hdd = HardDiskSATA('WD', 'WD Green', 1200000, '1000 GB',7200)
 
